@@ -7,7 +7,7 @@ body {
     font-family: 'Balsamiq Sans', cursive;
     font-style: normal;
     line-height: 20px;
-   
+
 }
 
 .holder {
@@ -28,12 +28,12 @@ header h1 {
     bottom: 10px;
     margin-left: 15%;
     text-shadow: 0 0 4px rgb(20, 20, 20);
-   
-   
+
+
 }
 
 nav {
-    /* background-color: #ddf0bbf6; */
+    border-bottom: 1px solid #a3bd72f1;
 }
 
 nav ul {
@@ -49,7 +49,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color:  #a3bd72f1;
+    color: #a3bd72f1;
     text-shadow: 0 0 0.5px rgb(20, 20, 20);
     text-decoration: none;
     padding: 15px 15px;
@@ -66,8 +66,8 @@ nav ul li a:hover {
 
 
 footer {
-    
-    color:  #a3bd72f1;
+
+    color: #a3bd72f1;
     padding: 10px 0;
     margin-top: 15px;
     text-align: center;
@@ -84,6 +84,16 @@ footer {
     box-sizing: border-box;
 }
 
+main {
+    color: rgba(77, 77, 77);
+    /* color: rgba(82, 73, 73, 0.918); */
+}
+
+h2 i {
+    color: #a3bd72f1;
+}
+
+
 #bio {
     display: flex;
     padding: 15px;
@@ -91,8 +101,9 @@ footer {
     background-color: #DAD992;
 }
 
-#carrusel {
-    background-color: #bcd494;
+#galeria h5,
+p {
+    margin-left: 10%;
 }
 
 img {
@@ -106,8 +117,38 @@ img {
     height: auto;
 }
 
+.carousel-item {
+    color: white;
+    text-shadow: 0 0 6px rgb(10, 10, 10);
+}
+
+
+.accordion-button:focus {
+    background-color: #a3bd72f1;
+    border-color: white;
+    color: white;
+    text-shadow: 0 0 6px rgb(10, 10, 10);
+}
+
+.containersaludo {
+    display: flex;
+}
+
+.imgsaludo {
+    max-width: 40%;
+    margin: 0;
+}
+
+.psaludo {
+    max-width: 40%;
+    text-align: center;
+    margin: 0;
+}
+
+
+
 #videos {
-    background-color: #dfdd8d;
+    /* background-color: #dfdd8d; */
 }
 
 .card {
@@ -115,12 +156,18 @@ img {
     box-sizing: border-box;
 }
 
+/* .card-body {
+    border: 1px solid rgb(173, 165, 165);
+} */
+
 .btn-primary {
     background-color: #89a55d;
-    border: 4px solid #c5df9b; 
+    border: 4px solid #c5df9b;
+    border-radius: 50%;
+
 }
 
 .btn-primary:hover {
-    background-color: #5f7254da;
-    border-color: #5d7a55;
+    background-color: #c5df9b;
+    border: 4px solid #89a55d;
 }
