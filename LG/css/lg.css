@@ -105,6 +105,16 @@ p {
     margin-left: 15%;
 }
 
+#saludos h5 {
+    margin-left: 5%;
+    padding: 15px;
+}
+
+#multimedia h5 {
+    margin-left: 5%;
+    padding: 15px;
+}
+
 .autorcita {
     margin-left: 25%;
 }
@@ -157,8 +167,8 @@ img {
 
 
 .card {
-    margin-top: 40px;
-    margin-left: 10%;
+    margin-top: 25px;
+    margin-left: 5%;
     box-sizing: border-box;
 }
 
